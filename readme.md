@@ -11,3 +11,8 @@ Built with:
 "Credit Card" landing page.
 - ### Output:
   ![Output](./project_1/Assets/Photos/output.png)
+
+# Project 2:
+"Hosting Site" landing page.
+- ### Output:
+  ![Output](./project_2/Assets/output.png)
