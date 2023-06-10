@@ -16,3 +16,8 @@ Built with:
 "Hosting Site" landing page.
 - ### Output:
   ![Output](./project_2/Assets/output.png)
+
+# Project 3:
+"Gaming" landing page.
+- ### Output:
+  ![Output](./project_3/Assets/output.png)
