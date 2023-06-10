@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    color: #121212;
+    background-color: #ffffff;
+}
+
+header {
+    color: #ffffff;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    position: relative;
+    height: 7rem;
+}
+
+.nav-bar > div:first-child {
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.logo {
+    width: 152px;
+}
+
+.nav-bar > div:nth-child(2) {
+    margin-left: 7.5rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.nav-list li {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 2.5rem;
+}
+
+.nav-list > li:last-child {
+    margin-right: 0;
+}
+
+.nav-bar > div:nth-child(3) {
+    margin-right: 8rem;
+    position: absolute;
+    right: 0%;
+}
+
+.nav-list-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+
+.nav-list-2 li {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 1.5rem;
+}
+
+.nav-list-2 > li:last-child {
+    margin-right: 0;
+}
+
+.sign-up-button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 2.2rem;
+    border: none;
+    color: #ffffff;
+    background-color: #F4694C;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 6.2rem;
+    padding-bottom: 4rem;
+}
+
+.left-side-1 {
+    width: 50%;
+    margin-left: 8rem;
+}
+
+.left-side-1 h1 {
+    font-size: 3.25rem;
+    font-weight: 800;
+    width: 95%;
+}
+
+.left-side-1 p {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 85%;
+    margin-top: 1.1rem;
+    color: #929090;
+}
+
+.button-group-1 {
+    margin-top: 2.8rem;
+}
+
+.get-started-button-1 {
+    font-size: 1.063rem;
+    font-weight: 600;
+    padding: 1rem 2.4rem;
+    margin-right: 1.3rem;
+    border: 2.3px solid #F4694C;
+    color: #ffffff;
+    background-color: #F4694C;
+}
+
+.learn-more-button-1 {
+    font-size: 1.063rem;
+    font-weight: 500;
+    padding: 1rem 2.4rem;
+    border: 2.3px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.right-side-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    height: 25.25rem;
+    margin: 3.5rem 8rem 0 0;
+    position: relative;
+}
+
+.play-button {
+    width: 85px;
+    position: absolute;
+    top: 10%;
+    left: 51%;
+}
+
+.right-sub-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dash {
+    width: 45px;
+    align-self: flex-start;
+    margin-top: 1.2rem;
+    margin-right: 0.9rem;
+}
+
+.right-sub-container h3 {
+    font-size: 1.625rem;
+    font-weight: 500;
+    width: 42%;
+}
+
+.next-arrow {
+    width: 67px;
+    align-self: flex-end;
+    margin-bottom: 0.6rem;
+    margin-left: 3.1rem;
+}
+
+.background-image {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    z-index: -2;
+}
+
+.color-overlay-1 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #000000;
+    z-index: -1;
+    opacity: 55%;
+}
+
+.section-3 {
+    margin-top: 12rem;
+}
+
+.container-2 h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.sub-container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 4.2rem 8rem 0 8rem;
+}
+
+.rectangular-card-1, .rectangular-card-2, .rectangular-card-3, .rectangular-card-4 {
+    width: 305px;
+    height: 385px;
+    margin-right: 1.6rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.rectangular-card-4 {
+    margin-right: 0;
+}
+
+.game-image-1 {
+    height: 100%;
+    position: absolute;
+    right: -29%;
+    z-index: -1;
+}
+
+.game-image-2 {
+    height: 100%;
+    position: absolute;
+    right: -64%;
+    z-index: -1;
+}
+
+.game-image-3 {
+    height: 100%;
+    position: absolute;
+    right: -52.5%;
+    z-index: -1;
+}
+
+.game-image-4 {
+    height: 100%;
+    position: absolute;
+    right: -58%;
+    z-index: -1;
+}
+
+.game-info-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 31%;
+    padding: 0 1rem;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    color: #ffffff;
+    background-color: #ffffff45;
+    backdrop-filter: blur(15px);
+}
+
+.game-info-1 > div:first-child > h3 {
+    font-size: 1.063rem;
+    font-weight: 600;
+}
+
+.game-info-1 > div:first-child > p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.4rem;
+    color: #aaaaaa;
+}
+
+.five-stars {
+    width: 90px;
+    margin-top: 0.5rem;
+}
+
+.download-button-1 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.7rem 1rem;
+    border: none;
+    color: #ffffff;
+    background-color: #F4694C;
+}
+
+.section-4 {
+    margin-top: 12rem;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 8rem;
+}
+
+.left-side-2 {
+    width: 535px;
+    height: 415px;
+    margin-right: 3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.game-image-5 {
+    height: 100%;
+    position: absolute;
+    right: -21.5%;
+}
+
+.right-side-2 {
+    width: 49.5%;
+}
+
+.right-side-2 h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.right-side-2 p {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 95%;
+    line-height: 1.9rem;
+    margin-top: 1rem;
+    color: #929090;
+}
+
+.button-group-2 {
+    margin-top: 2.7rem; 
+}
+
+.explore-now-button {
+    font-size: 1.063rem;
+    font-weight: 600;
+    padding: 0.9rem 2.1rem;
+    margin-right: 1.3rem;
+    border: 2.3px solid #F4694C;
+    color: #ffffff;
+    background-color: #F4694C;
+}
+
+.learn-more-button-2 {
+    font-size: 1.063rem;
+    font-weight: 500;
+    padding: 0.9rem 2.1rem;
+    border: 2.3px solid #F4694C;
+    color: #F4694C;
+    background-color: transparent;
+}
+
+.section-5 {
+    margin-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8rem; 
+}
+
+.container-4 h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    width: 45%;
+}
+
+.left-arrow, .right-arrow {
+    width: 28px;
+}
+
+.button-group-3 button {
+    padding: 1.5rem 1.2rem;
+    margin-right: 0.9rem;
+    border: none;
+    background-color: #FDE1DB;
+}
+
+.button-group-3 > button:last-child {
+    margin-right: 0;
+    background-color: #F4694C;
+}
+
+.container-5 {
+    display: grid;
+    grid-template-columns: 630px 630px;
+    justify-content: space-between;
+    row-gap: 5.8rem;
+    margin: 4rem 6rem 0 8rem;
+}
+
+.sub-container-2, .sub-container-3, .sub-container-4, .sub-container-5 {
+    display: flex;
+    align-items: center;
+}
+
+.game-image-6, .game-image-7, .game-image-8, .game-image-9 {
+    width: 250px;
+    margin-right: 2rem;
+}
+
+.game-info-2 h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    width: 85%;
+}
+
+.game-info-2 > p:nth-child(2) {
+    font-size: 1.063rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    color: #F4694C;
+}
+
+.game-info-2 > p:nth-child(3) {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 95%;
+    line-height: 1.9rem;
+    margin-top: 1rem;
+    color: #929090;
+}
+
+.download-button-2 {
+    font-size: 1.063rem;
+    font-weight: 500;
+    padding: 0.9rem 2.3rem;
+    margin-top: 1.6rem;
+    border: none;
+    color: #ffffff;
+    background-color: #F4694C;
+}
+
+.section-6 {
+    padding: 4rem 0 6.8rem 0;
+    color: #ffffff;
+    background-color: #000308;
+}
+
+.container-6 h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.sub-container-6 {
+    display: flex;
+    margin: 3rem 0 0 8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.left-side-3 {
+    margin-right: 4rem;
+}
+
+.game-image-10 {
+    width: 425px;
+}
+
+.right-side-3 p {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 70%;
+    line-height: 1.9rem;
+    margin-top: 3.2rem;
+    color: #929090;
+}
+
+.sub-container-7 {
+    display: flex;
+    margin-top: 5.1rem;
+}
+
+.game-image-11 {
+    width: 330px;
+    margin-right: 3.2rem;
+}
+
+.game-image-12 {
+    width: 330px;
+    height: 275px;
+    align-self: flex-end;
+}
+
+.background-quote {
+    height: 70.5px;
+    position: absolute;
+    top: 26%;
+    right: 0%;
+    z-index: -1;
+}
+
+.section-7 {
+    color: #ffffff;
+    background-color: #000308;
+}
+
+.container-7 {
+    height: 527.5px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-7 h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    width: 40%;
+    padding-top: 7rem;
+    margin: auto;
+}
+
+.container-7 p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    width: 27%;
+    margin: auto;
+    margin-top: 1.2rem;
+    color: #929090;
+}
+
+.get-started-button-2 {
+    font-size: 1.063rem;
+    font-weight: 600;
+    padding: 1rem 2.4rem;
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    border: none;
+    color: #ffffff;
+    background-color: #F4694C;
+    display: block;
+}
+
+.gamer-bg-image {
+    width: 100%;
+    position: absolute;
+    top:0%;
+    z-index: -2;
+}
+
+.color-overlay-2 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #000000;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.section-8 {
+    padding: 4rem 0 3.3rem 0;
+    border-bottom: 1px solid #92909077;
+    color: #ffffff;
+    background-color: #000308;
+}
+
+.container-8 {
+    display: flex;
+    column-gap: 6.6rem;
+    margin: 0 8rem;
+}
+
+.sub-container-8 {
+    width: 18%;
+}
+
+.footer-logo {
+    width: 135px;
+}
+
+.sub-container-8 p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    margin-top: 0.5rem;
+    color: #929090;
+}
+
+.social-media-handles {
+    margin-top: 1.6rem;
+}
+
+.facebook, .instagram, .twitter {
+    width: 43px;
+    margin-right: 0.8rem;
+}
+
+.twitter {
+    margin-right: 0; 
+}
+
+.container-8 ul li {
+    font-size: 1.063rem;
+    font-weight: 400;
+    margin-bottom: 1.1rem;
+    color: #929090;
+}
+
+.container-8 > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.container-8 h4 {
+    font-size: 1.063rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+    color: #ffffff;
+}
+
+footer {
+    padding-bottom: 5.3rem;
+    background-color: #000611;
+}
