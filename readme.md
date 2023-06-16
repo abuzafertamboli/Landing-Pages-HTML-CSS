@@ -25,4 +25,4 @@ Built with:
 # Project 4:
 "Real Estate" landing page.
 - ### Output:
-  ![Output](./project_4/Assets/output.png)
+  ![Output](./project_4/Assets/Output.png)
