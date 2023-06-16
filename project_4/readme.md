@@ -1,3 +1,3 @@
 ## "Real Estate" landing page.
 ### Output:
-![Output](./Assets/output.png)
+![Output](./Assets/Output.png)
