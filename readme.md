@@ -26,3 +26,8 @@ Built with:
 "Real Estate" landing page.
 - ### Output:
   ![Output](./project_4/Assets/Output.png)
+
+# Project 5:
+"Data Analytics" landing page.
+- ### Output:
+  ![Output](./project_5/images/output.png)
