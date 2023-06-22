@@ -31,3 +31,8 @@ Built with:
 "Data Analytics" landing page.
 - ### Output:
   ![Output](./project_5/images/output.png)
+
+# Project 6:
+"Beats" landing page.
+- ### Output:
+  ![Output](./project_6/Photos/output.png)
